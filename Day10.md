@@ -1,6 +1,6 @@
 ## Day 10 of #dailycoding challenge ⬇️
 
-Today we are interested in #reshaping data between #long and #wide forms.
+Today we are interested in reshaping data between #long and #wide forms.
 In R, tabular data is stored in data frames. Through this post we will cover the various ways of transforming a single table.
 In a wide format, each variable has its own column. However, sometimes it is more convenient to have a long format, in which all variables are in one column and the values are in a second column.
 
@@ -25,7 +25,7 @@ Happy Coding Learning !
  long <- stack(data)
  head(long) # this shows the long format and we get two columns.
  # Let's see the values in the variable ind to understand more what happened.
-levels(long$ind)
+ levels(long$ind)
  wide <- unstack(long)
  head(wide) # this shows the wide format. We get back to the original data.
  
