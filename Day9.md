@@ -14,11 +14,14 @@ The basic syntax for creating a matrix in R is −
 - Following is the description of the parameters used :
 
 ▪ data is the input vector which becomes the data elements of the matrix.
+
 ▪ nrow is the number of rows to be created.
+
 ▪ ncol is the number of columns to be created.
+
 ▪ byrow is a logical clue. If TRUE then the input vector elements are arranged by row.
 
-🟪 dimnames are the names assigned to the rows and columns.
+▪ dimnames are the names assigned to the rows and columns.
 
 Take a look at the examples below to understand more the functionnality of every function ⬇️
 
