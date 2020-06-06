@@ -9,16 +9,14 @@ A Matrix is created using the matrix() function.
 Syntax :
 The basic syntax for creating a matrix in R is −
 
-🟪 matrix(data, nrow, ncol, byrow, dimnames)
+▪ matrix(data, nrow, ncol, byrow, dimnames)
 
-Following is the description of the parameters used −
-🟪 data is the input vector which becomes the data elements of the matrix.
+- Following is the description of the parameters used :
 
-🟪 nrow is the number of rows to be created.
-
-🟪 ncol is the number of columns to be created.
-
-🟪 byrow is a logical clue. If TRUE then the input vector elements are arranged by row.
+▪ data is the input vector which becomes the data elements of the matrix.
+▪ nrow is the number of rows to be created.
+▪ ncol is the number of columns to be created.
+▪ byrow is a logical clue. If TRUE then the input vector elements are arranged by row.
 
 🟪 dimnames are the names assigned to the rows and columns.
 
