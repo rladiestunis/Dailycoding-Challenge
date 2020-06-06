@@ -19,22 +19,22 @@ Take a look at the examples below to understand more the functionnality of every
 Happy Coding Learning !
 
 ``` r
- ## Creation of two dataframes 
+ # Creation of two dataframes 
  height <- data.frame("Character" = c("Luke", "Han", "Leia","Mark"),
                       "height" = c("1.75m", "1.85m", "1.5m","1.65m"))
  gender <- data.frame("Character" = c("Luke", "Han", "Leia","Jane","Ramsey"),
                       "gender" = c("m", "m", "f","f","m"))
  
- ## INNER JOIN : returns rows when there is a match in both tables.
+ # INNER JOIN : returns rows when there is a match in both tables.
  merge(x = height, y = gender, by = "Character")
  
- ## FULL (outer) JOIN: As you can see in the results it generates NA for gender to Mark as Mark doesn't exist in gender and NAs for Jane and Ramsey as they don't appear in height.
+ # FULL (outer) JOIN: As you can see in the results it generates NA for gender to Mark as Mark doesn't exist in gender and NAs for Jane and Ramsey as they don't appear in height.
  merge(height,gender, all=TRUE)
  
- ## Left outer join in R: Return all rows from height, and all the rows with matching keys from gender. It puts NA for the gender of Mark as Mark doesn't appear in gender. 
+ # Left outer join in R: Return all rows from height, and all the rows with matching keys from gender. It puts NA for the gender of Mark as Mark doesn't appear in gender. 
  merge(x = height, y = gender, by = "Character",all.x=TRUE)
  
- ## Right outer join in R: Return all rows from gender, and any rows with matching keys from height.It generates NAs for the heights of Jane and Ramsey as they exist only in height.
+ # Right outer join in R: Return all rows from gender, and any rows with matching keys from height.It generates NAs for the heights of Jane and Ramsey as they exist only in height.
  merge(x = height, y = gender, by = "Character",all.y=TRUE)
 
 ```
