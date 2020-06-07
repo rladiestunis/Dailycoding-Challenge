@@ -24,41 +24,41 @@ Take a look at the examples below to understand more the use of those functions.
 Happy Coding Learning !
 
 ``` r
-## Loading package 
+# Loading package 
 library(dplyr)
 
-## Converting the iris data into a tibble data frame (tbl_df) 
-## for easier data analysis.
+# Converting the iris data into a tibble data frame (tbl_df) 
+# for easier data analysis.
 
 my_data <- as_tibble(iris)
 my_data
 
-## Extractiong row by position from row 1 to row 3
+# Extractiong row by position from row 1 to row 3
 my_data %>% slice(1:3)
 
-## Extracting rows where Sepal.Length > 7
+# Extracting rows where Sepal.Length > 7
 my_data %>% filter(Sepal.Length > 7)
 
-## Create a new demo data set from my_data by removing the grouping column "Species"
+# Create a new demo data set from my_data by removing the grouping column "Species"
 my_data2 <- my_data %>% select(-Species)
 
-## Selecting rows where all variables are greater than 3.2.
+# Selecting rows where all variables are greater than 3.2.
 my_data2 %>% filter_all(all_vars(.> 3.2))
 
-## The following R code apply the filtering criteria 
-## on the columns Sepal.Length and Sepal.Width
+# The following R code apply the filtering criteria 
+# on the columns Sepal.Length and Sepal.Width
 my_data2 %>% filter_at(vars(starts_with("Sepal")), any_vars(. > 2.4))
 
-## We first use the function set.seed() to initiate random number generator engine.
+# We first use the function set.seed() to initiate random number generator engine.
 set.seed(1234)
 
-## Extract 3 random rows without replacement
+# Extract 3 random rows without replacement
 my_data %>% sample_n(3, replace = FALSE)
 
 # Extract 3% of rows, randomly without replacement
 my_data %>% sample_frac(0.03, replace = FALSE)
 
-## Select the top 5 rows ordered by Sepal.Length
+# Select the top 5 rows ordered by Sepal.Length
 
 my_data %>% top_n(5, Sepal.Length)
 ```
