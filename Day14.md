@@ -60,6 +60,7 @@ log(x) %>% diff() %>%
          
          
 # Use of the pipe operator as an argument placeholder :
-"Ceci  n'est pas une pipe" %>% gsub("une", "un", .) 
+#"Ceci  n'est pas une pipe" %>% gsub("une", "un", .) 
 5  %>% round(pi, digits=.)
+```
 
