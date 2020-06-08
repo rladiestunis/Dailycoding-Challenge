@@ -19,7 +19,7 @@ Most common functions are :
 
 ▪ top_n(): Select top n rows ordered by a variable
 
-Take a look at the examples below to understand more the use of those functions.
+Take a look at the examples below to understand more the use of those functions ⬇️
 
 Happy Coding Learning !
 
