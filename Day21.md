@@ -1,4 +1,4 @@
-##Day 21 of #dailycoding challenge ⬇️
+## Day 21 of #dailycoding challenge ⬇️
 
 Today we are interested in #t-test. t-test is the common used test in statistics to determine whether the means of two groups are equal to each other.
 
