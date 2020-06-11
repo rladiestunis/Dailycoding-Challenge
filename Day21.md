@@ -14,5 +14,19 @@ Take a look at the examples below to understand more the use of the t.test funct
 Happy Coding Learning !
 
 ``` r
+#Simulating a normal distribution 
+x = rnorm(10)
+y = rnorm(10)
 
+#Performing t-test 
+ttest = t.test(x,y)
+
+#Using names() to know the list of available parameters 
+names(ttest)
+
+#The value we want is named "statistic". To extract it, we can use the dollar sign notation, or double square brackets:
+
+ttest$statistic
+
+ttest[['statistic']]
 ```
