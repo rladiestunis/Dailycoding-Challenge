@@ -5,10 +5,13 @@ Decision tree is a graph to represent choices and their results in form of a tre
 Generally, a model is created with observed data also called training data. Then a set of validation data is used to verify and improve the model.
 
 🟪 The R package "party" is used to create decision trees.
+
 🟪 The package "party" has the function ctree() which is used to create and analyze decison tree :
+
 🔹 Syntaxe : ctree(formula, data)
-- formula is a formula describing the predictor and
-response variables.
+
+- formula is a formula describing the predictor and response variables.
+
 - data is the name of the data set used.
 
 ◼️ We will use the R in-built data set named readingSkills to create a decision tree. It describes the score of someone's readingSkills if we know the variables "age","shoesize","score" and whether the person is a native speaker or not.
