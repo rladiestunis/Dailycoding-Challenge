@@ -1,4 +1,4 @@
-## Day 25 of #dailycoding challenges ⬇️
+## Day 25 of #dailycoding challenge ⬇️
 
 After working on the #decision #trees, today we are going to work on #random #forest #classifier, so we are going to work on the same database (readingSkills) of the library "#party". and we will use this time the library "randomForest".
 
