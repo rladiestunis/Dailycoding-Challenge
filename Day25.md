@@ -6,7 +6,8 @@ Random forest Classifier explication :
 Random forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction .
 
 Take a look at the code it's really amazing ⬇️
-next time we will work on randomForest with the library "#caret"
+
+Next time we will work on randomForest with the library "#caret"
 
 Happy Coding Learning !
 
