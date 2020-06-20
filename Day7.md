@@ -26,8 +26,6 @@ Take a look at the examples below to understand more the functionnality of every
 
 Happy Coding Learning !
 
-You can install the released version of covid19tunisia with:
-
 ``` r
  # It’s usually a good idea before starting a script to first know what directory you’re working in
  # get current working directory
