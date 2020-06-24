@@ -1,4 +1,4 @@
-## Day 36 of #dailycoding challenge ⬇️
+## Day 35 of #dailycoding challenge ⬇️
 
 Today we will continue with the use of Loops in the programming language #R.
 https://github.com/rladiestunis/Dailycoding-Challenge/edit/master/Day27.md
@@ -17,7 +17,6 @@ Happy Coding Learning !
 
 ##Let's go through a very simple example to understand the concept of while loop.
  
-
 ctr <- 1   #Create a variable with value 1
 
 #Create the loop
@@ -25,7 +24,6 @@ while (ctr <= 6) {
   print(paste("counter is set to",ctr))
   ctr = ctr+1 #increment ctr
 }
-
 
 #In the above example, ctr is initially initialized to 1.
 
@@ -46,7 +44,6 @@ ctr
 
 #Incrementing ctr is important as this will eventually meet the exit condition.
 #Failing to do so will result into an infinite loop.
-
 
 
 
@@ -113,5 +110,4 @@ while(i <= 2){  #first loop
 #we started with the fist value of the first loop, then we execute the second loop
 #entirely for the first value of the first loop, before moving on to the second value
 #of the fist while loop
-
 ```
