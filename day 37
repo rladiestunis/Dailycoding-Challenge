@@ -1,0 +1,22 @@
+library(ggplot2)
+print(head(diamonds))
+
+#loading library "caret"
+library(caret)
+#Create a random forest model with the train command, choose the rf method for Random Forest
+set.seed(123)
+mod <- train(price ~ ., data = diamonds, method = "rf")
+print(mod)
+# number of trees, mtry, l’OOB and confusion matrix
+print(mod$finalModel)
+
+# Important variables
+varImp(mod)
+#plot of important variables
+plot(varImp(mod), top = 20)
+
+#Prédiction
+data=diamonds[c(3000,35000,50760),-c(2)]
+predicted=predict(mod,data)
+refrences=diamonds$cut[c(3000,35000,50760)]
+table(predicted,refrences)
