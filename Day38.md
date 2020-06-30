@@ -8,7 +8,7 @@ The two key components of every Shiny app : the UI (short for user interface) wh
 
 Through the upcoming posts, we will be interested in adding UI controls (some inputs and outputs to the UI) and defining them in the server function.
 
-For more details, you may take a look at the Shiny cheatsheet from https://www.rstudio.com/resources/cheatsheets/ which includes the main components of a Shiny app.
+For more details, you may take a look at [the Shiny cheatsheet](https://www.rstudio.com/resources/cheatsheets/) which includes the main components of a Shiny app.
 
 Interesting resources :
 
