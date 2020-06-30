@@ -12,9 +12,9 @@ For more details, you may take a look at the Shiny cheatsheet from https://www.r
 
 Interesting resources :
 
-- [Mastering Shiny book created by Hadley Wickham](https://lnkd.in/eNy4nvN)
+- ["Mastering Shiny" this book is created by Hadley Wickham](https://lnkd.in/eNy4nvN)
 
-- [Engineering Production-Grade Shiny Apps" this book is created by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard](https://lnkd.in/euJC2QM)
+- ["Engineering Production-Grade Shiny Apps" this book is created by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard](https://lnkd.in/euJC2QM)
 
 Happy Coding Learning !
 
