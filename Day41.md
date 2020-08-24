@@ -35,8 +35,6 @@ If you have a piece of code that you want to transform into a function, this key
 
 Happy Coding Learning !
 
-#dailycoding #challenge #programming #rstats #R #rladies
-
 ``` r
 # New Section -------------------------------------------------------------
 
