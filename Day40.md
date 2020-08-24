@@ -16,6 +16,7 @@ The function needs as arguments:
 · speed_cuts: numeric vector containing the cut points for the wind speed intervals
 
 Take a look at the examples below to understand more ⬇️
+
 Happy Coding Learning!
 
 ``` r
