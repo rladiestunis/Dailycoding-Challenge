@@ -19,7 +19,6 @@ Objects whose elements are constrained to be all data of the same type are calle
 3 Factor: This type of object is used to store the observed values of a categorical variable.
 
 Please take a look at the examples below to understand more ⬇️
-#rstats #rladies #dailycoding #challenge
 
 ``` r
 #vector
