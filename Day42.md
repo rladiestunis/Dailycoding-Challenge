@@ -6,9 +6,7 @@ Today, we will learn how to create a repeat loop in#R programming.
 
 repeat Loop:
 
-A repeat loop is used to iterate over a block of code multiple number of times until a stop condition is encountered. . Repeat loop does not have any condition to terminate the loop,
-We must ourselves place a condition explicitly within the loop’s body and use the break statement to exit the loop. Failing to do so will result into an infinite loop.
-
+A repeat loop is used to iterate over a block of code multiple number of times until a stop condition is encountered. . Repeat loop does not have any condition to terminate the loop, we must ourselves place a condition explicitly within the loop’s body and use the break statement to exit the loop. Failing to do so will result into an infinite loop.
 
 Break Statement:
 
@@ -38,11 +36,8 @@ repeat{
   
 } 
 
-#In the above program, the variable val is initialized to 1,
-#then in each iteration of the repeat loop the value of val
-#is displayed and then it is incremented until it becomes 
-#greater than 6. If the value of val becomes greater than 6 
-#then break statement is used to terminate the loop.
+#In the above program, the variable val is initialized to 1, then in each iteration of the repeat loop the value of val is displayed and then it is incremented until it becomes 
+#greater than 6. If the value of val becomes greater than 6 then break statement is used to terminate the loop.
 
 # infinite loop
 #A repeat loop without a break statement results into an endless loop.
@@ -69,10 +64,6 @@ repeat {
   }
 }
 
-#Here, initially the variable count is initialized with 1 
-#then in each iteration of the repeat loop after printing
-#Hello World the value of count is incremented till count
-#becomes 6 and the condition in the if statement becomes 
-#true then, the break statement is executed to terminate the 
-#repeat loop.
+#Here, initially the variable count is initialized with 1 then in each iteration of the repeat loop after printing Hello World the value of count is incremented till count
+#becomes 6 and the condition in the if statement becomes true then, the break statement is executed to terminate the repeat loop.
  ```
