@@ -1,3 +1,16 @@
+Day 50 #dailycoding challenge ⬇️
+the starting point to program is the creation of objects that will be manipulated later in our project. This is why the code of today is about creating objects and controlling its modes.
+The principal modes are "logical, numeric, complex and character".
+we can convert the mode of an object to an other, but the conversion must respect this order :
+logical
+numeric
+complex
+character.
+A logical mode object can be converted to any other mode, but for example a numeric mode object can only be converted to complex or character.
+Please take a look at the examples below to learn more ⬇️
+enjoy it !!
+
+```{r}
 #create object on R with one of the operators (<-,=)
 x=3
 a="lotus"
@@ -40,3 +53,4 @@ rm(a)
 a  
 rm(x,z)  
 x
+```
