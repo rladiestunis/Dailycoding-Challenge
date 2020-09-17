@@ -48,15 +48,14 @@ x
 z = as.numeric(z)  
 z  
 
-
-# Implicit conversions from one mode to another are done in this order (logical,numeric,complex,character)
+# Implicit conversions from one mode to another are done in this order (logical, numeric, complex, character)
   
 a = as.complex(a)
 a
 
 # Note : NA is a missing value
   
-#Deleting objects
+# Deleting objects
 rm(a)  
 a  
 rm(x,z)  
