@@ -1,4 +1,4 @@
-Day 50 #dailycoding challenge ⬇️
+## Day 50 #dailycoding challenge ⬇️
 
 the starting point to program is the creation of objects that will be manipulated later in our project. This is why the code of today is about creating objects and controlling its modes.
 
@@ -19,42 +19,42 @@ A logical mode object can be converted to any other mode, but for example a nume
 Please take a look at the examples below to learn more ⬇️
 
 ```{r}
-#create object on R with one of the operators (<-,=)
-x=3
-a="lotus"
-z<-TRUE
+# create object on R with one of the operators (<-,=)
+x = 3
+a = "lotus"
+z <- TRUE
 
-#Display of the value of x
+# Display of the value of x
 x
 
-#Display of the value of a  
+# Display of the value of a  
 print(a)  
 
-##Note:If an object does not exist the assignment creates it. Otherwise the assignment overwrites the previous value .
-x=4  
+## Note:If an object does not exist the assignment creates it. Otherwise the assignment overwrites the previous value .
+x = 4  
 x
 
-##the different modes of an object (null,numeric,logical,character,complex) 
+## the different modes of an object (null,numeric,logical,character,complex) 
 mode(x)  
 
 mode(a)  
 mode(z)  
 
   
-#Conversion from one mode to another explicitly 
-x=as.complex(x)  
+# Conversion from one mode to another explicitly 
+x = as.complex(x)  
 x  
 
-z=as.numeric(z)  
+z = as.numeric(z)  
 z  
 
 
-#Implicit conversions from one mode to another are done in this order (logical,numeric,complex,character)
+# Implicit conversions from one mode to another are done in this order (logical,numeric,complex,character)
   
-a=as.complex(a)
+a = as.complex(a)
 a
 
-#Note:NA is a missing value
+# Note:NA is a missing value
   
 #Deleting objects
 rm(a)  
