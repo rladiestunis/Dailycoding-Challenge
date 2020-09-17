@@ -1,6 +1,6 @@
 ## Day 50 #dailycoding challenge ⬇️
 
-the starting point to program is the creation of objects that will be manipulated later in our project. This is why the code of today is about creating objects and controlling its modes.
+The starting point to program is the creation of objects that will be manipulated later in our project. This is why the code of today is about creating objects and controlling its modes.
 
 The principal modes are "logical, numeric, complex and character".
 
@@ -30,7 +30,7 @@ x
 # Display of the value of a  
 print(a)  
 
-## Note:If an object does not exist the assignment creates it. Otherwise the assignment overwrites the previous value .
+## Note : If an object does not exist the assignment creates it. Otherwise the assignment overwrites the previous value .
 x = 4  
 x
 
@@ -54,7 +54,7 @@ z
 a = as.complex(a)
 a
 
-# Note:NA is a missing value
+# Note : NA is a missing value
   
 #Deleting objects
 rm(a)  
