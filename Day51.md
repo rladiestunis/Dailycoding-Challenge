@@ -1,6 +1,6 @@
 ## Day 51 of #dailycoding challenge ⬇️
 
-Today we will talk about  #R_operators .
+Today we will talk about  **R_operators**.
 
 R has many operators to carry out different mathematical and logical operations.
 Operators in R can mainly be classified into the following categories:
@@ -16,23 +16,23 @@ Happy Coding Learning !
 ``` r
  #Arithmetic Operators
 x <- 7
-y<-18
-x+y
-x*y
-y/x 
+y <- 18
+x + y
+x * y
+y / x 
 y%/%x
 y%%x
 y^x
 #Relational operators
 x <- 7
-y<-18
-x<y
-y>=20
+y <- 18
+x < y
+y >= 20
 x != 5
 #On vectors:
 x <- c(2,8,3)
 y <- c(6,4,1)
-x+y
+x + y
 x>y
 #logical Operators 
 x <- c(TRUE,FALSE,0,7)
@@ -49,5 +49,4 @@ x|y
 #Associativity
 3 / 4 / 5
 3 / (4 / 5)
-
  ```
