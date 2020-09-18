@@ -1,6 +1,6 @@
 ## Day 51 of #dailycoding challenge ⬇️
 
-Today we will talk about  **R_operators**.
+Today we will talk about  **R operators**.
 
 R has many operators to carry out different mathematical and logical operations.
 Operators in R can mainly be classified into the following categories:
