@@ -1,0 +1,111 @@
+<html>
+
+<head>
+<title>Day 50 #dailycoding challenge ⬇️</title>
+</head>
+
+<body>
+
+Day 52 of #dailycoding challenge ⬇️
+
+Today we will talk about #Vectors and #matrixes in #R .
+
+A #Vector is a basic data structure that contains element of similar type (logical, integer, double, character, complex or raw). 
+
+A #Matrix is basically a two-way generalization of a #Vector. Instead of a single index, we can use two indexes, one representing a row and the second representing a column.
+
+Maths Functions are applicable on this data structures.
+
+Code on #github 👉 https://github.com/rladiestunis/Dailycoding-Challenge
+
+Happy Coding Learning !
+
+
+<!--begin.rcode
+# $$$$$$$$$-Vectors-$$$$$$$$$ :
+##**** Creating vectors : (in 5 ways)
+###---1---: join elements into a vector
+c(2,4,6)
+###---2---: an integer sequence
+2:6
+###---3---: a complexe sequence
+seq(2,3 , by=0.5)
+###---4---: repeat a vector
+rep(1:2 , times=3)
+###---5---: repeat elements of a vector
+rep(1:2 , each=3)
+
+##**** vector functions :
+x = c(2,-5,8,4,10,7,-6,1,1)
+### print length :
+length(x)
+### return x soted
+sort(x)
+### return x reversed :
+rev(x)
+### see counts of values : 
+table(x)
+### see unique values
+unique(x)
+
+##**** selecting vector elements :
+### by position :
+#### the fourth element :
+x[4]
+#### all but the fourth :
+x[-4]
+#### elements two to foor : (slicing)
+x[2:4]
+#### all elements except two to four :
+x[-(2:4)]
+#### elements one and five : 
+x[c(1,5)]
+### by position :
+#### elements wich are equale to 10 :
+x[x==10]
+#### All elements less then 0 :
+x[x<0]
+#### elements in the set 1,2,5 :
+x[x %in% c(1,2,5)]
+### named vectors :
+x['apple']
+end.rcode-->
+
+<p>You can also embed plots, for example:</p>
+
+<!--begin.rcode fig.width=7, fig.height=6
+# $$$$$$$$$-Matrixes-$$$$$$$$$ :
+##**** Creating matrixes : 
+m = matrix(x , nrow=3 , ncol=3)
+
+##**** matrix functions :
+### print dimension (number of columns and rows):
+dim(m)
+### print number of rows :
+nrow(m)
+### print number of columns :
+ncol(m)
+### print n row (in this cse we will try n=2) :
+head(m,2)
+### bind columns :
+cbind(m)
+### bind rows :
+rbind(m)
+### transpose :
+t(m)
+### matrix multiplication :
+m %*% n
+### find x in: m*x=n :
+solve(m,n)
+
+##**** selecting matrix elements :
+### select a row (second row in this case):
+m[2, ]
+### select a column (first column in this case) :
+m[,1]
+### select an element(elemnt in the intersection betwin the second row and the third column) :
+m[2,3]
+end.rcode-->
+
+</body>
+</html>
